@@ -19,6 +19,13 @@ Terraform deploys the following components:
 * One FortiGate-VM instances with 2 NICs
 * Two firewall rules: one for external, one for internal.
 
+
+## Login account
+
+```
+az login
+```
+
 ## Deployment
 
 To deploy the FortiGate-VM to Azure:
